@@ -1,0 +1,30 @@
+# Preface {#sec-preface}
+
+Good data management is fundamental to research. It helps produce high-quality research data, ensuring data are accurate, accessible and (re)usable, both now and in the future. 
+
+The culture around data in ecology and evolution has shifted considerably since this guide was first published in 2014. Where once researchers focused primarily on collecting, processing and analysing their own data, it is now widely recognised that preserving and sharing data are integral parts of the scientific process. Many funders, journals and institutions now require that data are archived, and that data management plans are submitted early in project timelines. For example, data archiving has been mandatory, barring exceptional circumstances (e.g. indigenous data sovereignty[^1]), at all British Ecological Society (BES) journals since January 2014[^2]. The scale (and urgency) of our questions have changed too; tackling the planetary emergency needs an interdisciplinary and collaborative approach requiring many types of (often very large) data to be integrated. In addition, the growing use of so-called “artificial intelligence” (AI) and machine learning means data are increasingly likely to be reused in ways their creators never anticipated. Consequently, well-documented, well-structured data are vital. 
+
+But you shouldn’t just think of data management as a hurdle to be overcome. There are myriad benefits to effective management and sharing of data beyond fulfilling mandates and/or contributing to the wider community. Data, code and methods are increasingly valued as research outputs in their own right, not merely as supplements to a publication. Data (and code) sharing is also associated with higher impact, more collaborations, increased citations, and enhanced employability for researchers[^3-6]. This is also a prerequisite for improving the reproducibility, and thus credibility, of research. Most importantly, the person likely to benefit most from well-managed data is you (or your collaborators/students), either when revising a paper or expanding the project in future. So good data management really does benefit everyone! 
+
+This guide is designed to help researchers at all levels by describing how to integrate data management into each stage of the data lifecycle. This includes planning, creating, processing, documenting, preserving, and sharing your data. We hope you find it useful!
+
+::: {.callout-tip}
+### Invisible labour
+
+Scientific research is often a team effort, but the specialised labour behind good data management is often invisible, unbudgeted and unpaid. We emphasise that collecting, documenting, archiving, and sharing data requires a significant effort, including the effort in planning and managing it. Such labour must be explicitly planned and resourced when developing research projects. We also call on funders to set clear expectations that this will be encouraged and actively supported.
+
+:::
+
+
+
+[^1]: Carroll, S.R., Garba, I., Figueroa-Rodríguez, O.L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J.D., Anderson, J. and Hudson, M. (2020) ‘The CARE Principles for Indigenous Data Governance’, <i>Data Science Journal</i>, 19(1), p. 43. Available at: https://doi.org/10.5334/dsj-2020-043.
+
+[^2]: Cooper and the BES Data and Code Hackathon Group. 2026. Methods in Ecology and Evolution.
+
+[^3]: Allen C, Mehler DMA (2019) Open science challenges, benefits and tips in early career and beyond. PLOS Biology 17(5): e3000246. https://doi.org/10.1371/journal.pbio.3000246.
+
+[^4]: Colavizza G, Cadwallader L, LaFlamme M, Dozot G, Lecorney S, et al. (2024) An analysis of the effects of sharing research data, code, and preprints on citations. PLOS ONE 19(10): e0311493. https://doi.org/10.1371/journal.pone.0311493.
+
+[^5]: Erin C McKiernanPhilip E BourneC Titus BrownStuart BuckAmye KenallJennifer LinDamon McDougallBrian A NosekKarthik RamCourtney K SoderbergJeffrey R SpiesKaitlin ThaneyAndrew UpdegroveKara H WooTal Yarkoni (2016) Point of View: How open science helps researchers succeed eLife 5:e16800. https://doi.org/10.7554/eLife.16800.
+
+[^6]: Piwowar HA, Day RS, Fridsma DB (2007) Sharing Detailed Research Data Is Associated with Increased Citation Rate. PLOS ONE 2(3): e308. https://doi.org/10.1371/journal.pone.0000308.
