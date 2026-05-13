@@ -1,0 +1,48 @@
+# Welcome {.unnumbered}
+
+This is the [Quarto](https://quarto.org/) website for the 2nd edition of British Ecological Society's "Guide to Data Management". A print version of this guide has also been [published as a PDF file on Zenodo](ADD LINK WHEN DONE). 
+
+## About this Guide
+
+Copyright © British Ecological Society (BES) and authors, 2026
+
+This Guide is published under the [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) International license (CC BY-SA 4.0).
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)
+
+Part of the [**BES Better Science Guides**](https://www.britishecologicalsociety.org/content/better-science-guides/).
+
+**British Ecological Society**
+[https://www.britishecologicalsociety.org](https://www.britishecologicalsociety.org)
+
+### Editors
+
+Natalie Cooper, Natural History Museum, UK. ORCID: 0000-0003-4919-8655.
+
+Robert A. Barber, Royal Botanic Gardens, Kew, UK. ORCID: 0000-0001-6735-5250.
+
+### Contributors (2026)
+
+Sophia Anner, University of Louisville, USA. ORCID: 0000-0002-9241-6366. 
+
+Heikl Balti, Marie and Louis Pasteur University, France. ORCID: 0009-0006-2283-6767.
+
+Jordan O. Blanchard-Lafayette, University of Nottingham,  UK. ORCID: 0000-0003-4425-9711.
+
+Bryan M. Gee, The University of Texas at Austin, USA. ORCID: 0000-0003-4517-3290.
+
+Robin Hutchinson, UK Centre for Ecology and Hydrology, UK. ORCID: 0009-0001-7901-3052.
+
+Justin E. Isip, Natural History Museum, London, UK. ORCID: 0000-0002-9686-8888. 
+
+Rachel Jade Kuzmich, Norwegian University of Life Sciences (NMBU), Norway. ORCID: 0009-0005-8006-4489.
+
+Lucrezia Laccetti, University of Naples Federico II, Italy. ORCID: 0000-0001-8578-6644.
+
+Brooke Long-Fox, Phoenix Bioinformatics (MorphoBank), USA. ORCID: 0000-0002-2718-647X.
+
+Antonio J. Pérez-Luque, University of Granada, Spain. ORCID: 0000-0002-1747-0469.
+
+### Acknowledgements
+
+This booklet was coordinated by Harriet Rhodes, Jennifer Meyer and Kate Harrison of the British Ecological Society. We thank Edward Ivimey-Cook (ORCID: 0000-0003-4910-0443), Daniel J. Dunleavy (ORCID: 0000-0002-3597-7714), Pen-Yuan Hsing (ORCID: 0000-0002-5394-879X). Nicolas Lecomte (ORCID: 0000-0002-8473-5375); Esther Plomp (ORCID: 0000-0003-3625-1357), Hao Ye (ORCID: 0000-0002-8630-1458) for reviewing the second edition of this guide.
