@@ -8,7 +8,7 @@ This is the [Quarto](https://quarto.org/) version of the 2nd edition of British 
 
 The rendered website is here: 
 
-[https://bes-guide.github.io/reproducible-code/](https://bes-guide.github.io/reproducible-code/)
+[https://bes-guide.github.io/reproducible-code/](https://bes-guide.github.io/data-management/)
 
 ## License
 
