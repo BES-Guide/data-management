@@ -4,55 +4,20 @@ cff-version: 1.2.0
 title: Guide to Reproducible Code
 message: >-
   If you use this guide, please cite it using the
-  metadata from `CITATION.cff`. Note that Natalie Cooper and Pen-Yuan Hsing are the editors of this guide but are listed along with the authors because of limitations to the `CITATION.cff` format. The publisher of this guide is the British Ecological Society.
+  metadata from `CITATION.cff`. Note that Natalie Cooper and Rob Barber are the editors of this guide but are listed along with the authors because of limitations to the `CITATION.cff` format. The publisher of this guide is the British Ecological Society.
 type: software
 authors: 
   - given-names: Natalie
     family-names: Cooper
     orcid: 'https://orcid.org/0000-0003-4919-8655'
     affiliation: 'Natural History Museum, United Kingdom'
-  - given-names: Pen-Yuan
-    family-names: Hsing
-    orcid: 'https://orcid.org/0000-0002-5394-879X'
-    affiliation: 'University of Bristol, United Kingdom'
-  - family-names: Almarzouq
-    given-names: Batool
-    orcid: 'https://orcid.org/0000-0002-3905-2751'
-    affiliation: 'University of Liverpool, United Kingdom'
-  - family-names: Baldauf
-    given-names: Selina
-    orcid: 'https://orcid.org/0000-0002-3393-725X'
-    affiliation: 'Freie Universität Berlin, Germany'
-  - family-names: Chatterjee
-    given-names: Nilanjan
-    affiliation: >-
-      Senckenberg Biodiversity and Climate Research Centre,
-      Germany
-    orcid: 'https://orcid.org/0000-0002-7932-0191'
-  - family-names: Plomp
-    given-names: Esther
-    orcid: 'https://orcid.org/0000-0003-3625-1357'
-    affiliation: 'University of Aruba, Aruba'
-  - family-names: Strydom
-    given-names: Tanya
-    orcid: 'https://orcid.org/0000-0001-6067-1349'
-    affiliation: 'University of Sheffield, United Kingdom'
-  - family-names: Takola
-    given-names: Elina
-    orcid: 'https://orcid.org/0000-0003-1268-5513'
-    affiliation: 'Helmholtz-Zentrum für Umweltforschung, Germany'
-  - family-names: Zagrodzka
-    given-names: Zuzanna
-    affiliation: >-
-      University of Sheffield and University of Manchester,
-      United Kingdom
-    orcid: 'https://orcid.org/0000-0002-8640-414X'
+
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.17294767
+    value: 10.5281/zenodo.17294767 [update]
     description: Quarto source
   - type: doi
-    value: 10.5281/zenodo.16421732
+    value: 10.5281/zenodo.16421732 [update]
     description: PDF of print version
-repository-code: 'https://github.com/BES-Guide/reproducible-code'
+repository-code: 'https://github.com/BES-Guide/data-management'
 license: CC-BY-SA-4.0
