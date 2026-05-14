@@ -1,10 +1,10 @@
 # BES Guide to Data Management
 
-Zenodo DOI
+Zenodo DOI: 10.5281/zenodo.20180522
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-This is the [Quarto](https://quarto.org/) version of the 2nd edition of British Ecological Society's "Guide to Data Management". A print version of this guide has also been [published as a PDF file on Zenodo](ADD LINK). 
+This is the [Quarto](https://quarto.org/) version of the 2nd edition of British Ecological Society's "Guide to Data Management". A print version of this guide has also been [published as a PDF file on Zenodo](10.5281/zenodo.20180522). 
 
 The rendered website is here: 
 
