@@ -1,1 +1,99 @@
 # Further resources {#sec-further}
+
+## General
+
+- The Turing Way guide: https://book.the-turing-way.org/
+- Qualitative data sharing: https://zenodo.org/records/8319060
+- US National Institutes of Health supported this Qualitative Data Sharing toolkit: https://qdstoolkit.org/
+- Qualitative Data Repository, a great open source effort. This repository was funded by the US National Science Foundation and a variety of other reputable sources   https://qdr.syr.edu/
+- SORTEE https://sortee.org/
+- UK Research and Innovation (UKRI) https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/  
+
+## Planning
+
+- Data Management Plan (DMP) Tool: https://dmptool.org
+- DCC, How to Develop a Data Management and Sharing Plan http://www.dcc.ac.uk/resources/how-guides/develop-data-plan  
+
+## Creating
+
+- Jones, F. A. M., Spence-Jones, H. C., & Greiser, C. (2026). A short guide for effective field data collection. Methods in Ecology and Evolution, 17, 1042–1050. https://doi.org/10.1111/2041-210x.70259 
+- BES Inclusive Field work guide. https://www.britishecologicalsociety.org/wp-content/uploads/2024/12/BES-Inclusive-fieldwork-guide.pdf
+
+## Processing
+
+- BES Reproducible Code guide. https://www.britishecologicalsociety.org/wp-content/uploads/2025/12/BES-Reproducible-code-guide_2025.pdf
+
+## Documenting
+
+- READMEBuilder. https://github.com/EIvimeyCook/READMEBuilder
+- OSF Data Dictionary guide. https://help.osf.io/article/217-how-to-make-a-data-dictionary
+
+## Sharing
+
+- Creative Commons guide to Licensing Best Practices for Sharing Scientific Data: https://doi.org/10.5281/zenodo.18867141 
+
+
+::: border
+
+# Full Data Management Checklist
+
+## Planning
+
+- [ ] Does your data management plan include naming conventions, folder organisation, and documentation? 
+- [ ] Have you defined and assigned roles and responsibilities identifying who will collect, manage, and archive the data?
+- [ ] Has everyone agreed to how they will be provided appropriate attribution in all project outputs?  
+- [ ] Have you decided how data will be stored, backed up, and accessed throughout the project lifecycle?  
+- [ ] Do you have plans for long-term sharing and stewardship once the project is complete? 
+- [ ] Have you set a date (or milestone) for reviewing your plans?
+
+## Creating
+
+- [ ] Are all administrative requirements completed before planning data collection, e.g. ethics approval, risk assessment?
+- [ ] Have you agreed upon a robust data collection protocol that takes into consideration the specific place and time where you will be collecting your data?
+- [ ] Have you developed a collection template for all researchers conducting data collection?
+- [ ] Have you set up a secure online folder to store backups of collected data?
+- [ ] Are there any critical issues that were noted during data collection that need to be addressed before collating your data into a raw dataset? If yes, have you dealt with these?
+- [ ] Have you decided on a format for your raw dataset?
+- [ ] Have you assigned unique IDs to each observation, avoiding any special characters in the IDs?
+- [ ] Have you created backups of your raw dataset?
+
+## Processing
+
+- [ ] Are you using a data format that maintains its accessibility in the long term?
+- [ ] Are you using a widely recognised data format to ensure interoperability of your dataset?
+- [ ] Have you checked that you haven’t lost or corrupted any data during processing?
+- [ ] Is the main version of your file (used for research and sharing) easily identifiable?
+- [ ] Is your processing code well organised and version controlled?
+- [ ] Have you checked your data for validity and accuracy?
+- [ ] Have you cleaned your data with all steps clearly documented?
+
+## Documenting
+
+- [ ] Have you included a README file that includes all the recommended information?
+- [ ] Have you created a data dictionary, or included this information in your README?
+- [ ] Have you followed an established metadata standard that matches the type of data you are collecting (where appropriate)?
+- [ ] Have you included enough documentation that others can understand and reuse the data? Get a colleague who is not familiar with the project to check. 
+
+## Preserving
+
+- [ ] Is the main copy of the data stored in a shared location and not tied to a single individual’s account? 
+- [ ] Are your data backed up using a 3-2-1 approach (three copies, two locations, one offsite)? 
+- [ ] Have you checked institutional policies on cloud and third-party storage, especially for sensitive data? 
+- [ ] Are your backups automated where possible? Have you tested to confirm that they can be restored? 
+- [ ] Have you identified files required for long-term retention (including raw data, processed datasets, and documentation)? 
+- [ ] Is there a plan for maintaining access to data when team members leave or move institutions? 
+- [ ] Have you reviewed requirements from funders and target journals for data preservation and repository deposition?
+
+## Sharing 
+
+- [ ] Have you checked for a domain-specific repository for your data type?
+- [ ] Have you checked if your funder requires a specific repository?
+- [ ] Have you attached a licence to your dataset? 
+- [ ] Have you deposited your data in a repository, rather than as Supplemental Information? 
+- [ ] If you are sharing code, have you created a permanent, citable snapshot with a DOI via Zenodo or equivalent, not solely relying on version control platforms such as GitHub?
+- [ ] Does your data contain sensitive information, such as precise locations of endangered species or personal data from human participants? If so, have you removed or protected it before deposit?
+
+:::
+
+
+
