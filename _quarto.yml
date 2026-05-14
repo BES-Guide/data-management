@@ -8,7 +8,7 @@ book:
   
   page-footer:
     left: |
-      BES Guide to Data Management (2nd edition) was edited by Natalie Cooper and Rob Barber.
+      BES Guide to Data Management (2nd edition) was edited by Natalie Cooper and Robert A Barber.
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: cover.jpg
@@ -18,10 +18,11 @@ book:
   repo-branch: main
   chapters:
     - index.qmd
-    - introduction.qmd
+    - intro2.qmd
     - planning.qmd
     - creating.qmd
     - processing.qmd
+    - documenting.qmd
     - preserving.qmd
     - sharing.qmd
     - reusing.qmd
@@ -34,6 +35,6 @@ format:
       dark: darkly
     respect-user-color-scheme: true
     code-link: true
-    author-meta: "Natalie Cooper and Rob Barber"
+    author-meta: "Natalie Cooper and Robert A Barber"
     callout-appearance: simple
     number-depth: 3
