@@ -1,0 +1,59 @@
+# Processing {#sec-processing}
+
+Data processing is the conversion of raw data into usable information ready for analysis or publication, and typically involves formatting, organising, checking, cleaning and versioning of data.  
+Processed data should be well organised, structured, named and versioned in standard formats that can be interpreted in the future, and analysed as part of the data analysis stages of a project. 
+
+Digital information can be altered very easily, so it is important to be transparent in all aspects of processing that have taken place. Careful documentation and using a script will help demonstrate the authenticity of the data. Remember that once a raw dataset has been accurately created, the raw values should never be altered directly (see @sec-creating). Data processing steps should instead create new processed/cleaned datasets for further analyses. Both the raw and processed datasets should be shared at the end of the project (see @sec-sharing).
+
+## Data structure
+Data can be stored in different ways, but by the end of the processing stage they need a consistent structure. Spreadsheets (or tabular data, i.e. data in tables) are the easiest and most often used way of structuring data. However, as datasets grow larger, spreadsheet-based programmes can become unwieldy. A useful alternative is a relational database, which stores unique information (like taxon names) in separate, linked tables rather than repeating it across rows. This reduces redundancy, improves performance with larger datasets, and limits the opportunities for errors to creep in. See the [SQLite](https://sqlite.org/) documentation for an example of one sort of relational database. GIS (Geographical Information Systems) which many ecologists use for spatial data, also works in a similar way.
+
+To increase the interoperability of your dataset (see FAIR Box in @sec-introduction), you can use common data standards for your field to inform the structure of your data. This will allow your data to be integrated with data from thousands of different collections and projects, supporting further research. See @sec-documenting.
+
+## File formats 
+Once you have a consistent structure, data should be stored in non-proprietary, open formats wherever possible. This means formats that anyone can open regardless of the software they have installed. For tabular data common options include .csv (comma-separated values), .tsv (tab-separated values) and .txt (plain text); for images .png (portable network graphics) or .jpeg (joint photographic experts group) are frequently used; and .tiff (tag image file format) is often used for spatial data. Avoid formats tied to specific software versions, such as .RData or .xls, which may become unreadable over time. 
+
+## Filenames and folders 
+Processing is the stage where you apply the naming conventions and folder structure decided during planning (see @sec-planning). Applying these conventions consistently is especially important when working in collaboration, as it ensures that everyone can locate and identify files without ambiguity. If your project contains multiple linked files make sure the naming logic (which you should document! See Documenting) reflects these relationships clearly, so that connections between files remain traceable as the dataset evolves (e.g. a site-level file and a sample-level file that reference each other).
+
+## Quality assurance checks
+Quality assurance or quality control, involves checking that the data in your processed files are complete, valid and accurate. Complete data contains no missing fields or rows. Valid data are consistent with the method of data collection and the structure you are using, and contain no impossible values. Accurate data are a true reflection of the real-world and contains no data input or processing errors. Quality assurance checks should happen after you have made all of your intended changes to the data, to make sure that you haven’t introduced errors during processing (e.g. Spreadsheet box in @sec-creating). For example, you may lose values while converting between file formats or data structures.
+
+These checks may include: 
+- Identifying estimated, impossible, duplicated or missing values.
+- Checking for consistency within observations, across the dataset and with other datasets.
+- Checking for indications that the data collection methodology was not followed.
+- Performing statistical analyses to check for questionable or impossible values and outliers. 
+
+Figure 2 shows examples of errors that might be detected during quality assurance checks. How you perform these checks will vary a lot depending on your dataset, but you might use plots to look for unusual values, identify unique entries for each variable and ensure these are all allowable values, or search for NAs. For spatial data you could plot the points on a map to ensure they fall in approximately the correct regions (e.g. no giraffes in the middle of the ocean). For morphological data you could check that measurements fall within a sensible range (e.g. no 100m long frogs).
+
+Once you have run quality assurance checks on the data, the data should be cleaned, i.e. any identified errors should be corrected. This could include:
+
+- Removing duplicated entries or data points where the methodology was not followed.
+- Contacting collaborators who collected the data to correct data entry errors.
+- Checking the raw data file to identify errors, including typos, introduced during data processing.
+- Recategorising fields containing values not within the specified termlist.
+
+Record all changes made during cleaning, either in your processing script or as inline annotations in the data file. Ideally you would do this using a script so that the tests are repeatable (see [BES Reproducible Code](https://www.britishecologicalsociety.org/wp-content/uploads/2025/12/BES-Reproducible-code-guide_2025.pdf) guide for more details).
+
+[Figure 2: Examples of errors that may be identified during quality assurance checks.](errors.png)
+
+## Version control
+
+Data processing includes multiple steps (formatting, quality assurance and cleaning). Therefore, you need to keep track of which steps have been completed on each version of your data as you move from raw to publication-ready. The publication-ready file may also change over time as you add new quality assurance checks. Therefore, you should always know both the relationship between your processing code and your file naming convention, and the version of the processing code that was used to produce each file. For example, your raw data might be called `amazing_data_raw_2025-01-01.csv` and your processed data `amazing_data_processed_2025-01-23.csv`. 
+
+A core aim of version control is to make sure that everyone is working from the same version of the data, which can be challenging if working with collaborators in different virtual locations. A version control strategy will help locate required versions of the data, and clarify how versions differ from one another. At minimum, make sure your file naming convention includes the stage of data processing (see @sec-planning), and record the date and processing code version used to produce each file. Computational tools like [Quarto](https://quarto.org/) can help by keeping code and documentation together in a single file. For detailed guidance on version control with Git and scripted workflows, see the [BES Reproducible Code](https://www.britishecologicalsociety.org/wp-content/uploads/2025/12/BES-Reproducible-code-guide_2025.pdf) guide.
+
+::: {.border}
+
+### Processing checklist
+
+- [ ] Are you using a data format that maintains its accessibility in the long term?
+- [ ] Are you using a widely recognised data format to ensure interoperability of your dataset?
+- [ ] Have you checked that you haven’t lost or corrupted any data during processing?
+- [ ] Is the main version of your file (used for research and sharing) easily identifiable?
+- [ ] Is your processing code well organised and version controlled?
+- [ ] Have you checked your data for validity and accuracy?
+- [ ] Have you cleaned your data with all steps clearly documented?
+
+:::
