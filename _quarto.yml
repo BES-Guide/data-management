@@ -18,13 +18,13 @@ book:
   repo-branch: main
   chapters:
     - index.qmd
-    - intro.qmd
-    - organising-projects.qmd
-    - programming.qmd
-    - code-review.qmd
-    - reproducible-notebooks.qmd
-    - version-control.qmd
-    - publishing-and-archiving.qmd
+    - introduction.qmd
+    - planning.qmd
+    - creating.qmd
+    - processing.qmd
+    - preserving.qmd
+    - sharing.qmd
+    - reusing.qmd
     - further-resources.qmd
 
 format:
