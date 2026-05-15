@@ -1,1 +1,43 @@
 # Preserving {#sec-preserving}
+
+Preserving research data means protecting active files from loss during a project and ensuring that the data remain accessible and reusable over time (see FAIR box). Good preservation practices reduce the risk of accidental loss, support collaboration, and help ensure continuity when students graduate or projects are transferred to others. Preservation should begin as soon as data are collected or created, rather than being treated as a task at the end of a project, and should include not just the data files themselves but the documentation needed to interpret them (see @sec-documenting). 
+ 
+## Institutional and funder requirements 
+
+Your laboratory, institution, funder, or relevant national/international agencies may have policies governing how research data are stored, how long they must be retained, what protections apply to sensitive data, and whether cloud or third-party storage services are permitted. Journals increasingly require that data underlying publications are deposited in trusted repositories that support open and FAIR data principles (see FAIR box). Familiarising yourself with these requirements early can help you avoid problems later. Institutional storage systems (such as cloud or networked research storage) are often a practical starting point, offering managed backup, shared access, and technical support. Before using any cloud or third-party services, check with your institution IT department (see Library box) that it is permitted for your type of data, particularly if your project involves sensitive or restricted material. 
+ 
+## Don’t forget to backup! 
+
+Files can be lost through accidental deletion, hardware failure, ransomware attacks, sync errors, or damage during fieldwork. Ransomware in particular has affected a number of academic institutions in recent years and is a strong argument for keeping at least one backup in a separate offsite location. A reliable backup system significantly reduces the impact of these risks. A widely used guideline is the 3-2-1 rule: maintain three copies of your data stored across two different locations, with one copy kept offsite. In practice, this often means a main working copy in shared institutional or cloud storage, a second copy on a computer or drive, and a third copy in secure cloud storage or offsite location. External drives can be useful for short-term backup or transferring data (e.g. during fieldwork or when working with large files), but they should supplement rather than replace shared or cloud-based storage. Automated backup is preferable to manual copying, which is easily forgotten. Whichever system you use, check periodically that files are being copied correctly and can actually be restored. 
+ 
+It helps to distinguish between active data and preserved data. Active data (files currently being collected, processed, or analysed) require frequent backup, version tracking, and ready access for the team. Preserved data (files that should remain accessible over the longer term) typically include raw data, processed datasets, underlying publications, associated metadata, and documentation needed to understand or reproduce the research. Not every working file needs to be kept indefinitely, but identifying which files require long-term retention can make eventual deposition in a repository more straightforward. This is especially important for projects generating large volumes of automated data (e.g. from camera traps, bioacoustic sensors, or high-resolution imaging), which is worth planning explicitly for which data need to be retained in full, which can be reduced to processed outputs.
+
+## Storage and access
+
+Most projects will use a combination of storage systems. The goal is reliability and shared access, not a perfect or technically complex solution. If you are unsure what works best for your project, your IT department is a good first point of contact (see Library Box). Institutional cloud or networked storage is usually the best location for the main project copy, given its managed backup and support infrastructure. Commercial cloud services can be useful for collaboration or as an additional backup location, but it is important to understand potential financial costs, storage limits, and access restrictions prior to relying on them – some services charge for frequent data retrieval or place limits on large datasets. External drives are useful for fieldwork or transferring large data files, but should supplement rather than replace cloud-based storage. Local devices are convenient for day-to-day use but should never be the sole location for data files. 
+
+Critically, storing important project files in a shared location is one of the most effective preservation habits you can adopt. One of the most common causes of data loss in research is important files being accessible only through one person's login. When that person leaves the project, graduates, or moves institutions, the data can become difficult or impossible to recover. Access controls may still be necessary for sensitive data, but the overall structure should not depend on any one individual maintaining access. Making it a habit to review storage access whenever team members join or leave helps ensure nothing slips through the gaps.
+ 
+## Long-term preservation
+ 
+Long-term preservation means ensuring that data remain accessible beyond the immediate life of a project. For most projects, this will eventually involve depositing datasets and documentation in a trusted repository, where they can be assigned persistent identifiers (e.g. digital object identifiers; DOI) and receive long-term stewardship (see @sec-sharing). Some of these repositories include Dryad, Zenodo, or the Open Science Framework (OSF). File format choices also matter here: open, widely supported formats or community standards for specialised data are more likely to remain accessible as software changes, e.g. `.csv`, Darwin Core (see @sec-documenting).  
+ 
+An excellent preservation strategy does not need to be complex. For most ecological research, the essentials are: keep the main project copy in shared institutional or cloud storage, maintain an additional offsite backup, avoid concentrating access in one person’s account, and review storage arrangements whenever the team changes. When in doubt, talk to your institution's IT or research data support team (see Library box). 
+
+::: border
+
+### Preserving checklist 
+
+- [ ] Is the main copy of the data stored in a shared location and not tied to a single - [ ] individual’s account? 
+- [ ] Are your data backed up using a 3-2-1 approach (three copies, two locations, one offsite)? 
+- [ ] Have you checked institutional policies on cloud and third-party storage, especially for sensitive data? 
+- [ ] Are your backups automated where possible? Have you tested to confirm that they can be restored? 
+- [ ] Have you identified files required for long-term retention (including raw data, processed datasets, and documentation)? 
+- [ ] Is there a plan for maintaining access to data when team members leave or move institutions? 
+- [ ] Have you reviewed requirements from funders and target journals for data preservation and repository deposition?
+
+:::
+
+
+
+
