@@ -1,1 +1,78 @@
 # Sharing {#sec-sharing}
+
+Research data can be shared in many ways, and each method has advantages and disadvantages. It is important to choose the most appropriate option for your data type and to ensure your data are genuinely useful to others, including those outside academia. When choosing how to share, aim for the option that is most useful to the community most likely to access your data, in line with the FAIR principles (see FAIR Box).
+
+## Data repositories
+
+Archiving data in a repository is the recommended method of sharing, and is compulsory at many journals and funders. Good repositories assign globally persistent identifiers (e.g. digital object identifiers; DOIs) to datasets, enforce metadata standards, guarantee long-term preservation, and make your data independently discoverable and citeable. Data submitted to repositories must conform to submission guidelines, which helps ensure quality. Other advantages include secure storage with controlled access, regular backups, and tracking reuse metrics.
+
+There are two broad types of repositories to consider: domain-specific repositories and general-purpose repositories (see Repository Box). Some funders also operate their own repositories (e.g. the UK's Environmental Information Data Centre) and may require you to deposit there. Check your funder's policy before depositing! 
+
+::: callout-tip
+
+### Choosing a data repository
+
+Where you deposit your data matters. Domain-specific repositories have appropriate licenses and enforce metadata standards tailored to your data type, making your data more discoverable and reusable by the communities most likely to need it. If a specialist repository exists for your data, use it! Uploading a raw sequence file to a general-purpose repository without the contextual metadata that a specialist platform requires makes that data far harder to find and interpret. If your dataset spans multiple types (e.g. occurrence records plus sequences), consider depositing in more than one repository and linking them via DOIs. For data types without a well-established domain repository (e.g. ecological image libraries), a general-purpose repository is a good default.
+
+Examples of repositories by data type:
+- Sequences and genomics: European Nucleotide Archive (ENA), NCBI GenBank, BOLD (Barcode of Life Database)
+- Species occurrences & biodiversity: GBIF, iNaturalist, Ocean Biodiversity Information System (OBIS), eBird. 
+- Animal tracking and movement: Movebank.
+- Phenotypic and Morphological data: Plant Trait Database (TRY), MorphoBank, MorphoSource, AVONET.
+- Ecological and environmental data: Environmental Data Initiative (EDI), PANGAEA. 
+- Acoustic data: Arbimon, Xeno Canto, Macaulay Library .
+- General purpose: Zenodo, Figshare, Dryad, OSF, specific Institutional repositories, e.g. government agencies, universities etc.
+
+:::
+
+Some ecological datasets, particularly raw image libraries, acoustic recordings, video, and high-resolution remote sensing data, are too large for standard repository deposit. In these cases, deposit the processed outputs and analysis-ready data in a repository, and document clearly how the raw data can be accessed (for example, through a dedicated institutional archive or on request from the research group). Domain-specific platforms designed for large files, such as Movebank for tracking data or Arbimon for acoustic data, can handle volumes that general-purpose repositories cannot. The key principle is that even when full raw data cannot be deposited, the data underlying your published results should always be archived and accessible.
+
+## Licensing your data
+
+A licence tells others what they can and cannot do with your data. Without one, your data are legally unusable by anyone else, even if you intend it to be open. You should always attach a [licence](https://chooser-beta.creativecommons.org/) when depositing data. The Creative Commons (CC) suite of licenses is the most widely used framework for open research data. Commonly used CC licenses include:
+
+- CC0 (Public Domain Dedication) waives all restrictions, legally placing the data in the public domain. Anyone can use, share, and build on it for any purpose without restriction or attribution requirement. Note that while CC0 removes any legal requirement to attribute, standard scientific norms of citation still apply. You should always cite data you use, regardless of its licence. 
+- CC BY (Attribution) allows anyone to use and build on the data for any purpose, including commercially, provided they credit you. 
+- CC BY-SA (Attribution-ShareAlike) is as CC BY, but derivative works must be released under the same licence. This means that if someone combines your dataset with data under a different licence, they may not be able to share the result, which can limit reuse in ways that are difficult to anticipate. However, a major benefit of this “pay it forward” license is that it ensures future users of your data will not create derivative works which are proprietary or with other restrictions. 
+
+More restrictive licences such as CC BY-NC (non-commercial) or CC BY-ND (no-derivatives) are generally discouraged for research data because they limit reuse by charities, NGOs, and public institutions, and can create unintended barriers for conservation and policy applications.
+
+For more details, the Creative Commons organisation has published [official guidance](https://doi.org/10.5281/zenodo.18867141) on choosing a license for your data. Help is also available at https://choosealicense.com/.
+
+## Discouraged practices
+
+Supplemental Information (SI), i.e., appending data as files attached to a journal article, is widespread but is not genuine data sharing. SI files receive no persistent identifier, have no independent metadata, are not indexed in data discovery systems, and carry no preservation guarantees. Also, they are difficult to cite as standalone datasets. SI can thus complement a repository deposit for small reference files, but it should never replace one. Similarly, platforms such as Codeberg, Gitlab, or GitHub are excellent for version control and collaboration, but are not suitable as a permanent archive. These types of repositories can be deleted or made private at any time, and they do not issue DOIs or guarantee long-term preservation. For data/code associated with a publication, use these platforms alongside a permanent archive, for example Zenodo, OSF, or Figshare integrate directly with GitHub and will create a citable, [preserved snapshot at the time of publication]( https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content). Finally, sharing data in formats like PDF or Microsoft Word should be avoided; instead use non-proprietary formats like `.csv`. See @sec-processing.
+ 
+::: callout-tip
+
+### Sensitive data and the CARE principles
+
+Not all data can or should be shared openly. Common categories of sensitive data include location data for endangered or commercially valuable species, personal data from human participants, data collected under agreements that restrict sharing, and data with rights or interests held by indigenous or local communities. For the latter, the [CARE Principles](https://www.gida-global.org/care) - Collective Benefit, Authority to Control, Responsibility, and Ethics - offer important guidance that complements FAIR by addressing the rights of the communities from whom data originate. Where FAIR focuses on making data more accessible and reusable, CARE asks who benefits from that access and whether the communities connected to the data have a say in how it is shared. 
+
+If your data are sensitive, many repositories support controlled access or embargo periods. If you are unsure whether your data qualify as sensitive, consult your institution's research governance team before depositing.
+
+Also remember that this is not all-or-nothing. For example, even if you can’t share the raw data, you could publish lower-resolution coordinates, anonymised data, or a simulated example dataset with the same statistical properties!
+
+:::
+
+## Sharing data beyond published papers 
+
+A lot of valuable research data never makes it into a publication, and therefore never gets shared. Species occurrence records, labelled images from ecological monitoring, and data from student dissertations all have potential value that frequently goes unrealised. Labelled image datasets are a clear example: those that were archived have become foundational resources for machine learning and automated species identification. You do not need a publication to justify depositing data in a repository, but for large (in terms of volume of data, spatial extent, and/or number of data types) or long-term datasets assembled at significant effort, a data paper can also make the case for your work. A data paper is a peer-reviewed publication that describes a dataset rather than reporting hypotheses or conclusions, giving you credit through indexing and citation in the same way as a research article.
+
+## Sharing data beyond academia
+
+Ecological and environmental data frequently have value outside academic research, such as conservation practitioners, land managers, policymakers, community scientists or the wider public. If your data touches on public-interest questions, consider whether your documentation is written in plain language that does not assume specialist knowledge, and whether your file formats are accessible without specialist software. Making data genuinely usable by non-specialist audiences is an extension of good science communication and can significantly broaden the impact of your work.
+
+::: border
+
+### Sharing checklist
+
+- [ ] Have you checked for a domain-specific repository for your data type?
+- [ ] Have you checked if your funder requires a specific repository?
+- [ ] Have you attached a licence to your dataset? 
+- [ ] Have you deposited your data in a repository, rather than as Supplemental Information? 
+- [ ] If you are sharing code, have you created a permanent, citeable snapshot with a DOI via Zenodo or equivalent, not solely relying on version control platforms such as GitHub?
+- [ ] Do your data contain sensitive information, such as precise locations of endangered species or personal data from human participants? If so, have you removed or protected it before deposit?
+
+:::
+
