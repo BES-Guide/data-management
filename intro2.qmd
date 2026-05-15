@@ -1,1 +1,73 @@
 # Introduction {#sec-intro}
+
+## What are research data?
+
+Research data are the factual pieces of information used to produce and validate research results. They can take many forms and are commonly grouped into four broad categories:
+
+- Observational: data tied to a specific time and place that cannot be re-collected (e.g. field surveys, weather station readings, satellite imagery, acoustic recordings).
+- Experimental: data generated under controlled or partially controlled conditions that could in principle be reproduced, though this may be costly (e.g. field plots, greenhouse experiments, chemical analyses).
+- Simulation: data generated from computational models (e.g. climate projections, population dynamics models).
+- Derived: data produced by combining or transforming existing datasets (e.g. species range maps generated from occurrence records, biomass estimates calculated from density and body size data).
+
+These categories describe how data are generated, but it is equally important to recognise what form they take. Research data can be quantitative (numerical measurements, counts, coordinates) or qualitative (interview transcripts, field notes, photographs, audio recordings). These are not separate traditions. Many ecological and conservation projects generate both and managing them well means treating each appropriately[^7]. 
+
+Alongside the data themselves, metadata (data about data) describe the context, content and structure of datasets, making them understandable and discoverable by others. Managing all of this well is a growing challenge. It is increasingly common for projects to integrate multiple data types into a single analysis, drawing on data from across and beyond ecology and evolution. As research becomes more collaborative and interdisciplinary, the ability to manage diverse data, and the metadata that make them usable, becomes essential.
+
+## The data lifecycle
+
+Data often have a longer lifespan than the project they were created for, as illustrated by the data lifecycle (Figure 1). 
+
+Some projects may only focus on certain parts of the lifecycle, such as primary data creation, or reusing others’ data. Other projects may go through several revolutions of the cycle. Either way, most researchers will work with data at all stages throughout their career.
+
+![Figure 1: The data lifecycle](https://share.google/hYjXXdWM9Zbme1ycF) 
+
+## Why should I manage my data?
+
+Data management concerns how you plan for all stages of the data lifecycle (and beyond) and how you implement this plan throughout the research project. When done well, it keeps the research process efficient and ensures that your data meet the expectations set by you, your funders, your institution and relevant legislation (e.g. copyright, data protection).
+
+Ask yourself, ‘Would a colleague be able to take over my project tomorrow if I disappeared or make sense of the data without talking to me?’ If you can answer “yes” then you are managing your data well. If not, this guide will help!
+
+Potential benefits of good data management include:
+
+- Ensuring data are accurate, complete, authentic and reliable.
+- Increasing research efficiency in terms of time and effort.
+- Improved replicability and reproducibility.
+- Saving time and money in the long run – ‘undoing’ mistakes is frustrating.
+- Meeting funder and publisher requirements.
+- Minimising the risk of data loss.
+- Preventing duplication by others.
+- Facilitating data sharing.
+
+The FAIR principles (that data should be Findable, Accessible, Interoperable and Reusable)[^8] provide a widely adopted framework for thinking about what good data management looks like in practice (see FAIR Box).
+
+## Why should I share my data?
+
+We currently face challenges that no single dataset can address. Biodiversity loss, climate change and other large-scale problems all require combining datasets across disciplines and borders, which is only possible if data are widely shared. Every dataset left on a hard drive is one fewer resource available to the wider scientific community. 
+
+There are also direct personal benefits. Data papers (dedicated publications that describe and release a dataset) can be highly cited and represent a growing form of research output. Therefore, sharing data can increase the visibility of your own work and lead to potential future collaborations. 
+
+Sharing data are also increasingly expected. Most major funders now require data management and sharing plans as part of grant applications, and publishers (including the BES) mandate that data underlying published results be archived in a suitable repository. Whilst once rare, these requirements are increasingly common, and reflect an ongoing shift in scientific culture towards openness.
+
+Sharing data can be daunting, but the practical barriers are lower than many researchers assume, and the later sections of this guide are designed to help you navigate them.
+
+There are also legitimate reasons why some data cannot or should not be shared freely (for example, sensitive information about endangered species or personal data protected by law; see Sensitive data and CARE Box) and these are discussed in detail in @sec-sharing.     
+
+::: callout-tip
+
+### Open science and FAIR research
+
+Documenting and sharing data is part of a wider set of good practices referred to as open science. Open science practices ensure that the processes and outputs of science are shared so that anyone can use, study, change or build upon them and continue to share what they’ve learned with others. Just as we build upon past knowledge to conduct our research, we have a responsibility to the scientific process to share what we learn with those who come after us. These ideals have been formalised in the [UNESCO Recommendation on Open Science](https://www.unesco.org/en/open-science/about), ratified in 2021.
+
+To help with this, there is a set of principles called [FAIR (Findable, Accessible, Interoperable and Reusable)](https://www.go-fair.org/fair-principles/)[^8] for making research outputs, such as data, more transparent and reproducible. The FAIR principles state that: 
+
+- Data (and metadata) is **Findable** for both humans and machines. Data should have a persistent, long-lasting reference such as a digital object identifier (DOI). Different versions of the data should be assigned distinct identifiers. Data should be associated with rich metadata describing their structure and use.
+- Data (and metadata) is **Accessible**. Accessible is not always the same as “open”: the data can be shared under restricted access with a clear protocol in place that could provide access to it. The metadata should always be accessible, even when the data are no longer available.
+- Data (and metadata) is **Interoperable** with other data and with applications or workflows for data analysis, storage, and processing. Interoperable data are shared in open formats that can be opened without proprietary or expensive software. 
+- Data (and metadata) is **Reusable**, i.e. can be understood, modified, built upon, or incorporated into other datasets. For this, the data needs to be well-documented and assigned a license. 
+
+It is important to think about the FAIR principles throughout your project. By applying what you learn in this guide, you will make your data not only more open and reproducible, but more FAIR as well! Check out the [Three-point FAIRification Framework](https://www.go-fair.org/how-to-go-fair/) for a practical guide to making your data FAIR. 
+
+:::
+
+[^7]: Moon et al. 2019. https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13126
+[^8]: https://www.nature.com/articles/sdata201618.
