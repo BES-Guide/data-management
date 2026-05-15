@@ -59,6 +59,7 @@ Explore the repository here: https://osf.io/n26sb/overview
 **Review**. Plan how data management will be reviewed throughout the project and adapted if necessary. This will help to integrate data management into the research process and ensure that the best data management practices are being implemented. Reviewing will also help to catch any issues early on, before they turn into bigger problems.
 
 ::: border
+
 ### Planning checklist
 
 - [ ] Does your data management plan include naming conventions, folder organisation, and documentation?
